@@ -1,0 +1,28 @@
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+}
+
+.items {
+    
+}
+
+center, .items {
+    display: grid;
+    grid-template-columns: 1000px;
+    row-gap: 40px;
+    /* gap between rows */
+    column-gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+}
